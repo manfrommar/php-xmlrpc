@@ -20,7 +20,7 @@ services:
 
 
   phpfpm:
-    build: './php/'
+    image: dockuru101/php-xmlrpc:7-fpm-alpine
     restart: always
     networks:
       - opensim-virtualworld
